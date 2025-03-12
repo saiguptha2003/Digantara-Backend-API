@@ -13,8 +13,8 @@ This project is a backend service built with Flask that provides several algorit
 
 1. **Clone the repository:**
     ```sh
-    git clone <repository-url>
-    cd <repository-directory>
+    git clone https://github.com/saiguptha2003/Digantara-Backend-API
+    cd Digantara-Backend-API
     ```
 
 2. **Build and run the application using Docker Compose:**
@@ -74,7 +74,6 @@ Test files are located in the `tests/` directory.
             "output": "...",
             "timestamp": "..."
         },
-        ...
     ]
     ```
 
