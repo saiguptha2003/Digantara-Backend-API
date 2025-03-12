@@ -1,0 +1,42 @@
+### Base URL
+@baseUrl = http://localhost:5000
+
+### Get logs
+GET {{baseUrl}}/api/logs
+Accept: application/json
+
+### Binary Search
+POST {{baseUrl}}/api/binarySearch
+Content-Type: application/json
+Accept: application/json
+
+{
+  "array": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+  "target": 5
+}
+
+### Quick Sort
+POST {{baseUrl}}/api/quickSort
+Content-Type: application/json
+Accept: application/json
+
+{
+  "array": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+}
+
+### Breadth-First Search (BFS)
+POST {{baseUrl}}/api/bfs
+Content-Type: application/json
+Accept: application/json
+
+{
+  "graph": {
+    "A": ["B", "C"],
+    "B": ["A", "D", "E"],
+    "C": ["A", "F"],
+    "D": ["B"],
+    "E": ["B", "F"],
+    "F": ["C", "E"]
+  },
+  "start_node": "A"
+}
