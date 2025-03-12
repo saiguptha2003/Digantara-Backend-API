@@ -1,0 +1,1 @@
+from .LogModel import  LogEntry
