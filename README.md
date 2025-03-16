@@ -2,6 +2,8 @@
 
 This project is a backend service built with Flask that provides several algorithm-related APIs and logging functionalities.
 
+
+### Note: Sorry, I have used all my free cloud credits, so I am not deploying it to the cloud.
 ## Building and Running the Application
 
 ### Prerequisites
